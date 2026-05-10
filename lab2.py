@@ -51,7 +51,7 @@ with open('RNATranslation.txt', 'r', encoding='utf-8') as file:
 for i in range(5):
     print(i, end=" ")
 
-or i in range(1, 10):
+for i in range(1, 10):
     for j in range(1, 10):
         print(i * j, end="\t")
     print("\n")
